@@ -46,6 +46,8 @@ print(f"Computer chose {computer_choose}:")
 print(game_images[computer_choose])
 
 # win lose
+##Consider only the user’s winning patterns; treat all other cases as a loss using else.
+
 if user_choose == computer_choose:
     print("Draw!")
 
