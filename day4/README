@@ -1,1 +1,34 @@
+# Rock–Paper–Scissors Game (Python)
 
+A simple command-line Rock–Paper–Scissors game written in Python.  
+You can choose Rock, Paper, or Scissors, and the computer will randomly make a choice.
+
+---
+
+## 🎮 How to Play
+
+1. Run the program.
+2. Input:
+   - `0` → Rock  
+   - `1` → Paper  
+   - `2` → Scissors  
+3. The program will show:
+   - Your hand (ASCII art)
+   - Computer's hand
+   - Result (Win / Lose / Draw)
+
+---
+
+## 🧩 Features
+
+- Random computer choice using `random.randint`
+- ASCII art for Rock, Paper, and Scissors
+- Input validation (only 0–2 allowed)
+- Simple win/loss logic
+
+---
+
+## ▶️ Run the Program
+
+```bash
+python day4.py
