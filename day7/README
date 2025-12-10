@@ -1,0 +1,38 @@
+#Hangman Game (Python)
+
+A simple Python program that allows you to play the classic Hangman game.
+Guess the letters of a randomly selected word before you run out of lives!
+
+#Features
+
+Random word selection from a predefined word list (hangman_words.py)
+
+Visual Hangman stages (hangman_art.py) showing your remaining lives
+
+Tracks correct and incorrect guesses
+
+Game ends when all letters are guessed or lives reach zero
+
+Clean and simple Python code structure
+
+
+#How It Works
+
+Run the program
+
+Input:
+
+Guess one letter at a time
+
+The program:
+
+Randomly selects a word from the word list
+
+Displays _ placeholders for unguessed letters
+
+Updates the display with correct guesses
+
+Decreases lives for incorrect guesses and shows hangman stages
+
+Ends the game with a win if all letters are guessed, or a loss if lives reach zero
+  
