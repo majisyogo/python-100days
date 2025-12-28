@@ -1,1 +1,41 @@
+# Caesar Cipher (Python)
+
+A simple Python program that allows you to encode and decode messages using the classic Caesar Cipher technique.
+Shift letters in the alphabet to encrypt or decrypt text.
+
+# Features
+
+Encode (encrypt) messages by shifting letters forward
+
+Decode (decrypt) messages by shifting letters backward
+
+Wraps around the alphabet using modulo arithmetic
+
+Allows repeated execution without restarting the program
+
+Clean and beginner-friendly Python code structure
+
+# How It Works
+
+Run the program
+
+Input:
+
+Choose `encode` or `decode`
+
+Enter your message (lowercase letters)
+
+Enter the shift number
+
+The program:
+
+Adjusts the shift direction based on encode or decode
+
+Shifts each letter in the message by the given number
+
+Wraps letters that exceed the alphabet range
+
+Displays the final encoded or decoded result
+
+Asks whether the user wants t
 
