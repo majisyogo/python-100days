@@ -1,0 +1,44 @@
+# Silent Auction (Python)
+
+A simple Python program that simulates a silent auction.
+Users can enter their names and bids, and the program determines the highest bidder at the end.
+
+---
+
+## Features
+
+- Accepts multiple bidders without restarting the program
+- Stores bids using a Python dictionary
+- Automatically determines the highest bidder
+- Uses functions for clean and readable code structure
+- Beginner-friendly and easy to understand
+
+---
+
+## How It Works
+
+1. Run the program
+2. Each bidder inputs:
+   - Their name
+   - Their bid amount
+3. After each bid, the program asks if there are more bidders
+4. When bidding is finished:
+   - The program compares all bids
+   - Displays the winner and the highest bid
+
+---
+
+## Example
+
+```text
+What is your name?: Alice
+What is your bid?: $150
+Are there any bidders? Type yes or no.
+yes
+
+What is your name?: Bob
+What is your bid?: $200
+Are there any bidders? Type yes or no.
+no
+
+The winner is Bob with a bid of $200.
