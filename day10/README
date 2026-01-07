@@ -1,0 +1,72 @@
+Calculator App (Python)
+
+A simple command-line calculator built with Python.
+Users can perform basic arithmetic operations and continue calculations with previous results without restarting the program.
+
+
+
+Features
+
+Supports basic arithmetic operations:
+
+Addition (+)
+
+Subtraction (-)
+
+Multiplication (*)
+
+Division (/)
+
+Allows continuous calculations using the previous result
+
+Uses a Python dictionary to map operators to functions
+
+Clean and readable function-based code structure
+
+ASCII art logo displayed at startup for better CLI experience
+
+Beginner-friendly and easy to extend
+
+
+
+How It Works
+
+Run the program
+
+The calculator displays a logo
+
+The user inputs:
+
+The first number
+
+An operation (+, -, *, /)
+
+The next number
+
+The calculator displays the result
+
+The user chooses:
+
+y to continue calculating with the current result
+
+n to start a new calculation
+
+
+Example
+What is the first number?: 10
++
+-
+*
+/
+Pick an operation: +
+What is the next number?: 5
+10.0 + 5.0 = 15.0
+
+Type 'y' to continue calculating with 15.0, or type 'n' to start a new calculation: y
+*
+Pick an operation: *
+What is the next number?: 2
+15.0 * 2.0 = 30.0
+
+
+The process repeats until the program is stopped
