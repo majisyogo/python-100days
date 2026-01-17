@@ -1,0 +1,56 @@
+Blackjack Game (Python)
+
+A simple command-line Blackjack game built with Python.
+The player competes against the computer following standard Blackjack rules, with an interactive CLI experience and ASCII art logo.
+
+Features
+
+Classic Blackjack gameplay (player vs computer)
+
+Automatic card dealing and score calculation
+
+Handles Ace (11 or 1) adjustment to prevent busting
+
+Blackjack detection (21 with two cards)
+
+Computer follows standard rule (hits until score ≥ 17)
+
+Clear win/lose/draw result messages
+
+Replayable game loop without restarting the program
+
+Clean, function-based and beginner-friendly code structure
+
+ASCII art logo displayed at the start of each game
+
+How It Works
+
+Run the program
+
+The Blackjack logo is displayed
+
+Both the player and the computer are dealt two cards
+
+The player can:
+
+Type y to draw another card (hit)
+
+Type n to stop drawing cards (stand)
+
+The game ends immediately if:
+
+The player gets Blackjack
+
+The computer gets Blackjack
+
+The player goes over 21
+
+After the player stands:
+
+The computer draws cards until its score reaches at least 17
+
+Final hands and scores are displayed
+
+The result is shown (win / lose / draw)
+
+The player can choose to play again or exit
