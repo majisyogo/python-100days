@@ -1,1 +1,98 @@
+Number Guessing Game (Python)
+
+A simple command-line number guessing game built with Python.
+The player tries to guess a randomly generated number between 1 and 100, with a limited number of attempts based on the chosen difficulty level.
+
+
+【Features】
+
+Random number generation between 1 and 100
+
+Two difficulty levels:
+
+Easy (10 attempts)
+
+Hard (5 attempts)
+
+Clear feedback after each guess:
+
+Too high
+
+Too low
+
+Correct answer
+
+Remaining attempts displayed each round
+
+Game over message when attempts run out
+
+Beginner-friendly, function-based code structure
+
+Demonstrates core Python concepts:
+
+Functions
+
+Loops
+
+Conditionals
+
+Return values
+
+User input handling
+
+
+
+【How It Works】
+
+Run the program
+
+A welcome message is displayed
+
+The computer randomly selects a number between 1 and 100
+
+The player chooses a difficulty level:
+
+Type easy for 10 attempts
+
+Type hard for 5 attempts
+
+The game loop begins:
+
+The player enters a guess
+
+The program compares the guess with the correct answer
+
+Feedback is shown:
+
+"Too high."
+
+"Too low."
+
+Or a success message if correct
+
+The number of remaining attempts decreases after each incorrect guess
+
+The game ends when:
+
+The player guesses the correct number, or
+
+The player runs out of attempts
+
+A final message is displayed indicating whether the player won or lost
+
+
+
+【Learning Purpose】
+
+This project is designed as a practice exercise for Python beginners to reinforce:
+
+Function definition and usage
+
+Passing arguments and returning values
+
+Loop control with while
+
+Basic game logic and state management
+
+Avoiding global variables by using return values
 
